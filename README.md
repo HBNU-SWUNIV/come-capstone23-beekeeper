@@ -29,9 +29,12 @@
     - OOO
     
 ## Case Study
-  - ### Description
-  
-  
+  - ### 동적 카메라 환경에서의 소형 드론 추적 방법
+ ![image](https://github.com/HBNU-SWUNIV/come-capstone23-beekeeper/assets/127067204/6b306e21-8529-4424-8b36-0931701bbc52)
+
+  - 연속되는 두 프레임 사이의 이미지 밝기 변화에서 각 픽셀의 움직임을 복구하기 위해 옵티컬 플로우 수행 
+  - 칼만 필터와 혼합하여 PTZ 카메라에서 소형 드론 추적
+    
 ## Conclusion
   - ### OOO
   - ### OOO
