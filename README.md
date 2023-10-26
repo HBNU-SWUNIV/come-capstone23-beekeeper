@@ -20,6 +20,11 @@
   
   - 위치에 따른 x, d값을 이용하여 𝜙 값을 알아낸 후 추적용 드론에 값을 전송, 최종적으로 계산된 yaw 값을 이용하여 적 드론과 유사한 위치로 추적용 드론을 출동
     
+![image](https://github.com/HBNU-SWUNIV/come-capstone23-beekeeper/assets/127067204/ec34b02a-5e07-4293-8ae2-4666d18d67d8)
+
+  - 객체 인식 시 화면에 나오는 바운딩 박스(Bounding Box)를 통해 물체와 카메라 사이의 거리 예측
+  - 카메라의 초점 거리(Focal length)와 드론의 실제 너비(Known width), 바운딩 박스의 넓이를 이용한 (Known_width * focal_length ) / bbox_width 공식을 활용
+
     - OOO
     
 ## Case Study
