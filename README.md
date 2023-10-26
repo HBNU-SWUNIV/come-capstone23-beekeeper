@@ -17,7 +17,8 @@
   - ### System Requirements
   - ### System Architecture
 ![image](https://github.com/HBNU-SWUNIV/come-capstone23-beekeeper/assets/127067204/fed5f702-a33c-46c6-973b-e24aceafdfbb)
-    - 위치에 따른 x, d값을 이용하여 𝜙 값을 알아낸 후 추적용 드론에 값을 전송, 최종적으로 계산된 yaw 값을 이용하여 적 드론과 유사한 위치로 추적용 드론을 출동
+  
+  - 위치에 따른 x, d값을 이용하여 𝜙 값을 알아낸 후 추적용 드론에 값을 전송, 최종적으로 계산된 yaw 값을 이용하여 적 드론과 유사한 위치로 추적용 드론을 출동
     
     - OOO
     
