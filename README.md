@@ -15,7 +15,10 @@
   
 ## System Design
   - ### System Requirements
-    - OOO
+  - ### System Architecture
+![image](https://github.com/HBNU-SWUNIV/come-capstone23-beekeeper/assets/127067204/fed5f702-a33c-46c6-973b-e24aceafdfbb)
+
+    
     - OOO
     
 ## Case Study
