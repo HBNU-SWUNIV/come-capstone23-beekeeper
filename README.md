@@ -19,7 +19,6 @@
 3. 적 드론의 움직임에 따라 추적용 드론의 화면 중앙에 적 드론이 위치하도록 추적용 드론의 방향 조정 후 트래킹 진행 
 
 ## System Design
-  - ### System Requirements
   - ### System Architecture
 ![image](https://github.com/HBNU-SWUNIV/come-capstone23-beekeeper/assets/127067204/fed5f702-a33c-46c6-973b-e24aceafdfbb)
   
@@ -31,7 +30,8 @@
   - 객체 인식 시 화면에 나오는 바운딩 박스(Bounding Box)를 통해 물체와 카메라 사이의 거리 예측
   - 카메라의 초점 거리(Focal length)와 드론의 실제 너비(Known width), 바운딩 박스의 넓이를 이용한 (Known_width * focal_length ) / bbox_width 공식을 활용
 
-    - OOO
+## Weight Files
+- 
     
 ## Case Study
   - ### 동적 카메라 환경에서의 소형 드론 추적 방법
