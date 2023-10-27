@@ -17,6 +17,13 @@
 3. 적 드론의 움직임에 따라 추적용 드론의 화면 중앙에 적 드론이 위치하도록 추적용 드론의 방향 조정 후 트래킹 진행 
 
 ## System Design
+  - ### System Requirements
+    - Python 3.10
+    - OpenCV 4.8.1
+    - Tello
+    - YOLOv4
+    - CUDA 11.8
+      
   - ### System Architecture
 ![image](https://github.com/HBNU-SWUNIV/come-capstone23-beekeeper/assets/127067204/fed5f702-a33c-46c6-973b-e24aceafdfbb)
   
