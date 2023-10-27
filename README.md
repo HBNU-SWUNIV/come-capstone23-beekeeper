@@ -9,9 +9,7 @@
  적 드론 추적 알고리즘의 필요성
   - 드론 산업의 성장에 따라서 일반 시민들도 쉽게 드론을 구매하여 사용 가능 → 드론 수요 증가에 따라 드론을 이용한 범죄율 증가
   - 적 드론 검출, 드론 위치 예측, 대응 드론의 출격 및 트래킹을 통하여 적 드론의 전략적 운용 가능 
-- ### 기존 해결책의 문제점
-  - OOO
-  - OOO
+
 ## 적 드론 대응 시나리오
 ![image](https://github.com/HBNU-SWUNIV/come-capstone23-beekeeper/assets/127067204/94d1110a-f198-4abb-9994-fc6588ff0f01)
 1. 지상 관제 메인 컴퓨터(MC)에 설치된 캠을 통해 식별된 상공의 적 드론의 위치정보 수신
@@ -30,9 +28,7 @@
   - 객체 인식 시 화면에 나오는 바운딩 박스(Bounding Box)를 통해 물체와 카메라 사이의 거리 예측
   - 카메라의 초점 거리(Focal length)와 드론의 실제 너비(Known width), 바운딩 박스의 넓이를 이용한 (Known_width * focal_length ) / bbox_width 공식을 활용
 
-## Weight Files
-- 
-    
+
 ## Case Study
   - ### 동적 카메라 환경에서의 소형 드론 추적 방법
  ![image](https://github.com/HBNU-SWUNIV/come-capstone23-beekeeper/assets/127067204/6b306e21-8529-4424-8b36-0931701bbc52)
@@ -51,3 +47,13 @@
 [단안 카메라 기반의 드론 검출 및 측위에 관한 연구]
 
 [YOLOv7 기반 드론 경로 예측에 관한 연구]
+
+- ### Reference
+[1] Davidovich Barak." Towards the Detection of GPS Spoofing Attacks against Drones by Analyzing Camera's Video Stream.
+[2] 최민우, 조남석 "Simulation Study on Search Strategies for the Reconnaissance Drone," 한국시뮬레이션학회 논문지, Vol. 28, No. 1, pp. 
+23-39, 2019.
+[4] Chang, Yunseok, "An enhanced rerouting cost estimation algorithm towards internet of drone." Journal of Supercomputing. Vol. 76, 
+Issue 12, p10036-10049, 2020.
+[5] https://www.droneportal.or.kr/subList/22000000118, 드론정보포털 드론 산업체 현황
+[6] 손소희, 전진우, 이인재, 차지훈, 최해철. (2019). 동적 카메라 환경에서의 소형 드론 추적 방법. 방송공학회논문지, 24(5), 802-812.
+
